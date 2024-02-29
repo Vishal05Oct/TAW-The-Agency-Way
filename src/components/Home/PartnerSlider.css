@@ -1,0 +1,30 @@
+/* slider css */
+.slider-list {
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.slider-list-item {
+    flex-shrink: 0;
+    margin-right: 35px;
+    transition: transform 0.5s;
+}
+
+.service-card {
+    height: 100px;
+    width: 150px;
+    filter: grayscale(100%);
+    transition: filter 0.9s;
+}
+
+.service-card:hover {
+    filter: grayscale(0%);
+}
+
+/* mobile view */
+@media only screen and (max-width: 625px) {
+    .service-card {
+        filter: grayscale(0%); 
+    }
+}

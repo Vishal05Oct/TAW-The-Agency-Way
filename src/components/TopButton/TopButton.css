@@ -1,0 +1,18 @@
+.scrollToTop {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+  }
+  .top-image{
+    height: 50px;
+    width: 50px;
+  }
+  .scrollToTop.active {
+    opacity: 1;
+  }
+
+  

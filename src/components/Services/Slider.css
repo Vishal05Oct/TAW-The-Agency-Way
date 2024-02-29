@@ -1,0 +1,26 @@
+.platforms-list {
+    display: flex;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.platforms-list:hover .slider-list-item {
+    filter: grayscale(100%);
+}
+
+.platforms-list:hover .slider-list-item:hover {
+    filter: grayscale(0%);
+}
+
+.slider-list-item {
+    flex-shrink: 0;
+    margin-right: 35px;
+    transition: transform 0.5s;
+}
+
+.service-card {
+    height: 100px;
+    width: 150px;
+    filter: grayscale(100%);
+    transition: filter 0.9s;
+}
